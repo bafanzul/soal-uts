@@ -1,19 +1,27 @@
 
-    body {
-        margin: 20px;
+body {
+
     }
-    table {
+
+.container {
+      width: 1200px;
+      margin: auto; 
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+  
+table {
       border-collapse: collapse;
       width: 100%;
       border: 1px solid black;
       margin-bottom: 20px;
     }
 
-    th {
+th {
         background-color: aqua;
-    }
+}
 
-    th, td {
+th, td {
       padding: 8px;
       text-align: left;
-    }
+}
